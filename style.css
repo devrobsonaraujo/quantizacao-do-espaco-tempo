@@ -1,0 +1,42 @@
+.col-9 {
+    margin-bottom: 100%;
+}
+
+/* Custom Button */
+
+.btn {
+    font-size: 0.7em;
+}
+
+.lead {
+    font-size: 0.9em;
+}
+
+
+
+
+
+/* Media Query */
+
+@media (min-width: 320px) and (max-width: 480px) { 
+    .row {
+        text-align: justify;
+    }
+
+    .col-3  {
+        text-align: left;
+        margin-left: 10%;  
+    }
+
+    .col-9 {
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+  
